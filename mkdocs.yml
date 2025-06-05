@@ -1,5 +1,5 @@
 # 网站基本信息
-site_name: Torch-RecHub
+site_name: 搜广推宇宙漫游指南 (LLM领航版)
 site_url: https://1985312383.github.io/search-rec-ads-cosmos-explorer/
 repo_url: https://github.com/1985312383/search-rec-ads-cosmos-explorer
 site_description: Welcome to your ultimate playground for mastering the fascinating world of Search, Advertising, and Recommendation algorithms!
@@ -8,252 +8,252 @@ copyright: "Copyright &copy; 2025 柯慕灵"
 
 # 主题设置
 theme:
-      name: material
-      language: en
-      features:
-            - content.code.copy # 开启代码复制功能
-            # - navigation.tabs  # 注释掉这一行，取消顶部标签页导航
-            - navigation.top
-            # - navigation.expand
-            - search.share
-            - navigation.sections # 在左侧导航栏中自动展开当前页面所在的部分
-            - navigation.path # 在左侧导航栏中显示当前页面路径
-            - toc.follow # 在右侧目录中跟随页面滚动
-            - navigation.top # 返回顶部按钮
-            - search.suggest # 搜索建议
-            - search.highlight # 搜索高亮
-            - navigation.sections
-            - navigation.indexes # 添加索引标记
-            - navigation.instant # 添加即时反馈
-            - navigation.tracking # 添加导航追踪
-      palette:
-            - scheme: default
-              primary: teal
-              accent: orange
-              toggle:
-                    icon: octicons/sun-16
-                    name: Switch to dark mode
-            # Palette toggle for dark mode
-            - media: "(prefers-color-scheme: dark)"
-              scheme: slate
-              toggle:
-                    icon: octicons/moon-16
-                    name: Switch to light mode
-      font:
-            text: LXGW WenKai
-            code: Roboto Mono
-      icon:
-            repo: fontawesome/brands/github
-      # logo: file/img/favicon.png
-      # favicon: file/img/favicon.png
+        name: gitbook
+        language: en
+        features:
+                - content.code.copy # 开启代码复制功能
+                # - navigation.tabs  # 注释掉这一行，取消顶部标签页导航
+                - navigation.top
+                # - navigation.expand
+                - search.share
+                - navigation.sections # 在左侧导航栏中自动展开当前页面所在的部分
+                - navigation.path # 在左侧导航栏中显示当前页面路径
+                - toc.follow # 在右侧目录中跟随页面滚动
+                - navigation.top # 返回顶部按钮
+                - search.suggest # 搜索建议
+                - search.highlight # 搜索高亮
+                - navigation.sections
+                - navigation.indexes # 添加索引标记
+                - navigation.instant # 添加即时反馈
+                - navigation.tracking # 添加导航追踪
+        palette:
+                - scheme: default
+                  primary: teal
+                  accent: orange
+                  toggle:
+                          icon: octicons/sun-16
+                          name: Switch to dark mode
+                # Palette toggle for dark mode
+                - media: "(prefers-color-scheme: dark)"
+                  scheme: slate
+                  toggle:
+                          icon: octicons/moon-16
+                          name: Switch to light mode
+        font:
+                text: LXGW WenKai
+                code: Roboto Mono
+        icon:
+                repo: fontawesome/brands/github
+        # logo: file/img/favicon.png
+        # favicon: file/img/favicon.png
 
 # 导航结构
 nav:
-      - 首页: zh/index.md
-      - 序章 - 搜广推的世界，你好！ 👋:
-              - 欢迎来到搜广推宇宙！:
-                      - 什么是搜广推？: zh/chapter0/welcome/intro.md
-                      - 为什么搜广推这么"香"？: zh/chapter0/welcome/search_rec_ads_value.md
-                      - 本教程能带给你什么？: zh/chapter0/welcome/tutorial_overview.md
-                      - 学习心态与建议: zh/chapter0/welcome/learning_tips.md
-      - 第一部分 - 基础知识夯实篇 🧱:
-              - 核心概念连连看:
-                      - 信息检索 (IR) 到底是个啥？: zh/chapter1/core_concepts/information_retrieval.md
-                      - 用户画像：给用户贴标签的艺术: zh/chapter1/core_concepts/user_profiling.md
-                      - 排序 (Ranking)：不只是先后那么简单: zh/chapter1/core_concepts/ranking.md
-                      - 召回 vs. 精排：大海捞针与精挑细选: zh/chapter1/core_concepts/recall_precision.md
-                      - 探索与利用 (E&E): zh/chapter1/core_concepts/explore_exploit.md
-              - 评价驱动开发:
-                      - 搜索效果指标排排坐: zh/chapter1/metrics/search_metrics.md
-                      - 推荐系统指标大点兵: zh/chapter1/metrics/recsys_metrics.md
-                      - 广告效果指标知多少: zh/chapter1/metrics/ad_metrics.md
-                      - A/B 测试：科学验证的"金标准": zh/chapter1/metrics/ab_testing.md
-              - “兵器谱”与“内功心法”:
-                      - 概率论与统计：从随机到规律: zh/chapter1/fundamentals/probability_stats.md
-                      - 线性代数：向量与矩阵的舞蹈: zh/chapter1/fundamentals/linear_algebra.md
-                      - 最优化方法：让模型更"聪明"的秘诀: zh/chapter1/fundamentals/optimization.md
-                      - 常用数据结构与算法: zh/chapter1/fundamentals/data_structures.md
-      - 第二部分 - 搜索算法 🧭:
-              - 经典永流传：传统搜索模型:
-                      - 布尔模型：简单直接的"与或非": zh/chapter2/classic_search/boolean_model.md
-                      - 向量空间模型 (VSM) 与 TF-IDF: zh/chapter2/classic_search/vsm_tfidf.md
-                      - 概率模型：BM25 与它的朋友们: zh/chapter2/classic_search/bm25.md
-              - 学习排序 (LTR)：让机器"学会"排序:
-                      - LTR 概述: zh/chapter2/ltr/intro.md
-                      - Pointwise, Pairwise, Listwise 方法: zh/chapter2/ltr/approaches.md
-                      - LTR 常见模型: zh/chapter2/ltr/models.md
-              - “搜”出新高度：查询理解与扩展:
-                      - 查询理解概述: zh/chapter2/query_understanding/intro.md
-                      - 查询预处理: zh/chapter2/query_understanding/preprocessing.md
-                      - 查询扩展与重写: zh/chapter2/query_understanding/expansion_rewriting.md
-                      - 查询意图识别: zh/chapter2/query_understanding/intent_classification.md
-              - 现代搜索技术一览:
-                      - 现代搜索技术概述: zh/chapter2/modern_search/intro.md
-                      - 语义搜索与向量检索: zh/chapter2/modern_search/semantic_search.md
-                      - 神经搜索模型初探: zh/chapter2/modern_search/neural_ir.md
-                      - 搜索系统架构简析: zh/chapter2/modern_search/architecture.md
-      - 第三部分 - 推荐算法 ❤️:
-              - 推荐算法概述: zh/chapter3/intro.md
-              - 推荐算法的"门派":
-                      - 算法门派概述: zh/chapter3/approaches/intro.md
-                      - 协同过滤：人以群分，物以类聚: zh/chapter3/approaches/collaborative_filtering.md
-                      - 基于用户的协同过滤 (UserCF): zh/chapter3/approaches/user_cf.md
-                      - 基于物品的协同过滤 (ItemCF): zh/chapter3/approaches/item_cf.md
-                      - 矩阵分解 (MF): zh/chapter3/approaches/matrix_factorization.md
-                      - 基于内容的推荐: zh/chapter3/approaches/content_based.md
-                      - 混合推荐模型: zh/chapter3/approaches/hybrid_models.md
-              - 深度学习在推荐中的"文艺复兴":
-                      - 深度学习推荐概述: zh/chapter3/deep_learning/intro.md
-                      - Embedding 的力量: zh/chapter3/deep_learning/embedding.md
-                      - 经典深度召回模型: zh/chapter3/deep_learning/recall_models.md
-                      - 深度排序模型"全家桶": zh/chapter3/deep_learning/ranking_models.md
-                      - 特征交叉的艺术: zh/chapter3/deep_learning/feature_crossing.md
-                      - 注意力机制的引入: zh/chapter3/deep_learning/attention_models.md
-                      - 图神经网络 (GNN) 与推荐: zh/chapter3/deep_learning/gnn_models.md
-              - 推荐系统进阶话题:
-                      - 进阶话题概述: zh/chapter3/advanced/intro.md
-                      - 冷启动问题: zh/chapter3/advanced/cold_start.md
-                      - 推荐的多样性、新颖性与惊喜度: zh/chapter3/advanced/diversity.md
-                      - 公平性、透明度与可解释性: zh/chapter3/advanced/fairness.md
-                      - 反馈延迟与实时推荐: zh/chapter3/advanced/realtime.md
-      - 第四部分 - 计算广告 💰:
-              - 计算广告核心概念与生态:
-                      - 广告术语"黑话"大全: zh/chapter4/basics/terminology.md
-                      - 广告交易市场: zh/chapter4/basics/ecosystem.md
-                      - 竞价策略：从 GSP 到 VCG: zh/chapter4/basics/bidding_strategies.md
-              - 点击率 (CTR) / 转化率 (CVR) 预估:
-                      - CTR/CVR 预估概述: zh/chapter4/ctr/models.md
-                      - 逻辑回归 (LR)：简单有效的"老将": zh/chapter4/ctr/lr.md
-                      - 因子分解机 (FM) 及其变种: zh/chapter4/ctr/fm_variants.md
-                      - 序列行为建模在CTR/CVR中的应用: zh/chapter4/ctr/sequence_models.md
-                      - 多目标学习: zh/chapter4/ctr/multi_task.md
-              - 广告中的用户定向与召回:
-                      - Look-alike：找到"相似的你": zh/chapter4/targeting/lookalike.md
-                      - 广告召回策略: zh/chapter4/targeting/recall_strategies.md
-                      - 重定向 (Retargeting): zh/chapter4/targeting/retargeting.md
-              - 广告策略与前沿优化:
-                      - 智能出价与预算分配: zh/chapter4/optimization/smart_bidding.md
-                      - 动态创意优化 (DCO): zh/chapter4/optimization/dco.md
-                      - 广告反作弊简介: zh/chapter4/optimization/anti_fraud.md
-      - 第五部分 - 高阶心法与Tricks ✨:
-              - “老司机”的经验宝库：搜广推中的实用Tricks:
-                      - 特征工程的"十八般武艺": zh/chapter5/tricks/feature_engineering.md
-                      - 高效负采样的学问: zh/chapter5/tricks/negative_sampling.md
-                      - 模型校准: zh/chapter5/tricks/model_calibration.md
-                      - 在线学习与模型快速迭代: zh/chapter5/tricks/online_learning.md
-                      - 业界常用SOTA模型架构: zh/chapter5/tricks/sota_models.md
-              - 高阶技术:
-                      - 多任务学习 (MTL): zh/chapter5/advanced/multi_task.md
-                      - 强化学习 (RL): zh/chapter5/advanced/reinforcement_learning.md
-                      - 因果推断: zh/chapter5/advanced/causal_inference.md
-                      - 模型压缩、蒸馏与高效部署: zh/chapter5/advanced/model_compression.md
-      - 第六部分 - LLM时代下的搜广推新范式 🧠:
-              - 当搜广推遇到大语言模型 (LLM):
-                      - LLM 为何能给搜广推带来革命性变化？: zh/chapter6/introduction/llm_revolution.md
-                      - LLM 在搜广推应用中的机遇与挑战: zh/chapter6/introduction/opportunities_challenges.md
-                      - 核心技术点: zh/chapter6/introduction/core_techniques.md
-              - LLM + 搜索：重新定义信息获取:
-                      - LLM 赋能查询理解与生成: zh/chapter6/llm_search/query_understanding.md
-                      - LLM 驱动的文档表示、摘要与排序: zh/chapter6/llm_search/document_representation.md
-                      - 生成式搜索与对话式搜索: zh/chapter6/llm_search/generative_search.md
-              - LLM + 推荐：迈向更懂你的个性化:
-                      - 基于 LLM 的用户建模与偏好挖掘: zh/chapter6/llm_recommendation/user_modeling.md
-                      - LLM 赋能物品内容理解与表示: zh/chapter6/llm_recommendation/item_understanding.md
-                      - 生成式推荐: zh/chapter6/llm_recommendation/generative_recommendation.md
-                      - 对话式推荐: zh/chapter6/llm_recommendation/conversational_recommendation.md
-              - LLM + 广告：创意与效率的"双翼齐飞":
-                      - LLM 驱动的广告创意自动化生成与优化: zh/chapter6/llm_advertising/creative_generation.md
-                      - 基于 LLM 的广告用户意图理解与精准定向: zh/chapter6/llm_advertising/intent_targeting.md
-                      - LLM 在广告竞价、预算分配中的探索: zh/chapter6/llm_advertising/bidding_optimization.md
-              - LLM 应用的共性问题与前沿思考:
-                      - 数据依赖、隐私保护与伦理考量: zh/chapter6/challenges/data_privacy.md
-                      - 模型幻觉与可信度挑战: zh/chapter6/challenges/hallucination.md
-                      - 推理效率、成本控制与工程落地: zh/chapter6/challenges/efficiency_cost.md
-                      - 通用智能与领域知识的结合: zh/chapter6/challenges/domain_integration.md
-                      - 多模态LLM在搜广推中的展望: zh/chapter6/challenges/multimodal_future.md
-      - 第七部分 - 动手实战 💻:
-              - 从零开始：你的第一个"玩具版"搜广推项目:
-                      - 环境搭建与工具选择: zh/chapter7/getting_started/environment_setup.md
-                      - 案例1：基于MovieLens数据集的电影推荐系统: zh/chapter7/getting_started/movie_recommendation.md
-                      - 案例2：基于文本的简易搜索引擎: zh/chapter7/getting_started/search_engine.md
-                      - 案例3：CTR预估模型Demo: zh/chapter7/getting_started/ctr_demo.md
-              - 常用框架与平台"巡礼":
-                      - 搜索引擎框架: zh/chapter7/frameworks/search_engines.md
-                      - 向量数据库: zh/chapter7/frameworks/vector_databases.md
-                      - 推荐系统库: zh/chapter7/frameworks/recsys_libraries.md
-                      - 大规模机器学习平台: zh/chapter7/frameworks/ml_platforms.md
-              - 工业界案例浅析:
-                      - 大厂搜广推系统架构解读: zh/chapter7/industrial_cases/architecture_analysis.md
-      - 附录与资源 📚:
-              - 术语表: zh/appendix/glossary.md
-              - 宝藏资源分享:
-                      - 经典/前沿论文清单: zh/appendix/resources/papers.md
-                      - 优质博客、在线课程、技术社区: zh/appendix/resources/blogs_courses.md
-                      - 必读好书推荐: zh/appendix/resources/books.md
-              - 常用公开数据集一览: zh/appendix/datasets.md
-              - 贡献指南与致谢: zh/appendix/contributing.md
-      - 结语 - 一起"卷"向未来！ 🌟:
-              - 教程回顾与总结: zh/conclusion/summary.md
-              - 搜广推技术的未来趋势展望: zh/conclusion/future_trends.md
-              - 如何持续学习与保持竞争力？: zh/conclusion/continuous_learning.md
+        - 首页: zh/index.md
+        - 序章 - 搜广推的世界，你好！ 👋:
+                  - 欢迎来到搜广推宇宙！:
+                            - 什么是搜广推？: zh/chapter0/welcome/intro.md
+                            - 为什么搜广推这么"香"？: zh/chapter0/welcome/search_rec_ads_value.md
+                            - 本教程能带给你什么？: zh/chapter0/welcome/tutorial_overview.md
+                            - 学习心态与建议: zh/chapter0/welcome/learning_tips.md
+        - 第一部分 - 基础知识夯实篇 🧱:
+                  - 核心概念连连看:
+                            - 信息检索 (IR) 到底是个啥？: zh/chapter1/core_concepts/information_retrieval.md
+                            - 用户画像：给用户贴标签的艺术: zh/chapter1/core_concepts/user_profiling.md
+                            - 排序 (Ranking)：不只是先后那么简单: zh/chapter1/core_concepts/ranking.md
+                            - 召回 vs. 精排：大海捞针与精挑细选: zh/chapter1/core_concepts/recall_precision.md
+                            - 探索与利用 (E&E): zh/chapter1/core_concepts/explore_exploit.md
+                  - 评价驱动开发:
+                            - 搜索效果指标排排坐: zh/chapter1/metrics/search_metrics.md
+                            - 推荐系统指标大点兵: zh/chapter1/metrics/recsys_metrics.md
+                            - 广告效果指标知多少: zh/chapter1/metrics/ad_metrics.md
+                            - A/B 测试：科学验证的"金标准": zh/chapter1/metrics/ab_testing.md
+                  - “兵器谱”与“内功心法”:
+                            - 概率论与统计：从随机到规律: zh/chapter1/fundamentals/probability_stats.md
+                            - 线性代数：向量与矩阵的舞蹈: zh/chapter1/fundamentals/linear_algebra.md
+                            - 最优化方法：让模型更"聪明"的秘诀: zh/chapter1/fundamentals/optimization.md
+                            - 常用数据结构与算法: zh/chapter1/fundamentals/data_structures.md
+        - 第二部分 - 搜索算法 🧭:
+                  - 经典永流传：传统搜索模型:
+                            - 布尔模型：简单直接的"与或非": zh/chapter2/classic_search/boolean_model.md
+                            - 向量空间模型 (VSM) 与 TF-IDF: zh/chapter2/classic_search/vsm_tfidf.md
+                            - 概率模型：BM25 与它的朋友们: zh/chapter2/classic_search/bm25.md
+                  - 学习排序 (LTR)：让机器"学会"排序:
+                            - LTR 概述: zh/chapter2/ltr/intro.md
+                            - Pointwise, Pairwise, Listwise 方法: zh/chapter2/ltr/approaches.md
+                            - LTR 常见模型: zh/chapter2/ltr/models.md
+                  - “搜”出新高度：查询理解与扩展:
+                            - 查询理解概述: zh/chapter2/query_understanding/intro.md
+                            - 查询预处理: zh/chapter2/query_understanding/preprocessing.md
+                            - 查询扩展与重写: zh/chapter2/query_understanding/expansion_rewriting.md
+                            - 查询意图识别: zh/chapter2/query_understanding/intent_classification.md
+                  - 现代搜索技术一览:
+                            - 现代搜索技术概述: zh/chapter2/modern_search/intro.md
+                            - 语义搜索与向量检索: zh/chapter2/modern_search/semantic_search.md
+                            - 神经搜索模型初探: zh/chapter2/modern_search/neural_ir.md
+                            - 搜索系统架构简析: zh/chapter2/modern_search/architecture.md
+        - 第三部分 - 推荐算法 ❤️:
+                  - 推荐算法概述: zh/chapter3/intro.md
+                  - 推荐算法的"门派":
+                            - 算法门派概述: zh/chapter3/approaches/intro.md
+                            - 协同过滤：人以群分，物以类聚: zh/chapter3/approaches/collaborative_filtering.md
+                            - 基于用户的协同过滤 (UserCF): zh/chapter3/approaches/user_cf.md
+                            - 基于物品的协同过滤 (ItemCF): zh/chapter3/approaches/item_cf.md
+                            - 矩阵分解 (MF): zh/chapter3/approaches/matrix_factorization.md
+                            - 基于内容的推荐: zh/chapter3/approaches/content_based.md
+                            - 混合推荐模型: zh/chapter3/approaches/hybrid_models.md
+                  - 深度学习在推荐中的"文艺复兴":
+                            - 深度学习推荐概述: zh/chapter3/deep_learning/intro.md
+                            - Embedding 的力量: zh/chapter3/deep_learning/embedding.md
+                            - 经典深度召回模型: zh/chapter3/deep_learning/recall_models.md
+                            - 深度排序模型"全家桶": zh/chapter3/deep_learning/ranking_models.md
+                            - 特征交叉的艺术: zh/chapter3/deep_learning/feature_crossing.md
+                            - 注意力机制的引入: zh/chapter3/deep_learning/attention_models.md
+                            - 图神经网络 (GNN) 与推荐: zh/chapter3/deep_learning/gnn_models.md
+                  - 推荐系统进阶话题:
+                            - 进阶话题概述: zh/chapter3/advanced/intro.md
+                            - 冷启动问题: zh/chapter3/advanced/cold_start.md
+                            - 推荐的多样性、新颖性与惊喜度: zh/chapter3/advanced/diversity.md
+                            - 公平性、透明度与可解释性: zh/chapter3/advanced/fairness.md
+                            - 反馈延迟与实时推荐: zh/chapter3/advanced/realtime.md
+        - 第四部分 - 计算广告 💰:
+                  - 计算广告核心概念与生态:
+                            - 广告术语"黑话"大全: zh/chapter4/basics/terminology.md
+                            - 广告交易市场: zh/chapter4/basics/ecosystem.md
+                            - 竞价策略：从 GSP 到 VCG: zh/chapter4/basics/bidding_strategies.md
+                  - 点击率 (CTR) / 转化率 (CVR) 预估:
+                            - CTR/CVR 预估概述: zh/chapter4/ctr/models.md
+                            - 逻辑回归 (LR)：简单有效的"老将": zh/chapter4/ctr/lr.md
+                            - 因子分解机 (FM) 及其变种: zh/chapter4/ctr/fm_variants.md
+                            - 序列行为建模在CTR/CVR中的应用: zh/chapter4/ctr/sequence_models.md
+                            - 多目标学习: zh/chapter4/ctr/multi_task.md
+                  - 广告中的用户定向与召回:
+                            - Look-alike：找到"相似的你": zh/chapter4/targeting/lookalike.md
+                            - 广告召回策略: zh/chapter4/targeting/recall_strategies.md
+                            - 重定向 (Retargeting): zh/chapter4/targeting/retargeting.md
+                  - 广告策略与前沿优化:
+                            - 智能出价与预算分配: zh/chapter4/optimization/smart_bidding.md
+                            - 动态创意优化 (DCO): zh/chapter4/optimization/dco.md
+                            - 广告反作弊简介: zh/chapter4/optimization/anti_fraud.md
+        - 第五部分 - 高阶心法与Tricks ✨:
+                  - “老司机”的经验宝库：搜广推中的实用Tricks:
+                            - 特征工程的"十八般武艺": zh/chapter5/tricks/feature_engineering.md
+                            - 高效负采样的学问: zh/chapter5/tricks/negative_sampling.md
+                            - 模型校准: zh/chapter5/tricks/model_calibration.md
+                            - 在线学习与模型快速迭代: zh/chapter5/tricks/online_learning.md
+                            - 业界常用SOTA模型架构: zh/chapter5/tricks/sota_models.md
+                  - 高阶技术:
+                            - 多任务学习 (MTL): zh/chapter5/advanced/multi_task.md
+                            - 强化学习 (RL): zh/chapter5/advanced/reinforcement_learning.md
+                            - 因果推断: zh/chapter5/advanced/causal_inference.md
+                            - 模型压缩、蒸馏与高效部署: zh/chapter5/advanced/model_compression.md
+        - 第六部分 - LLM时代下的搜广推新范式 🧠:
+                  - 当搜广推遇到大语言模型 (LLM):
+                            - LLM 为何能给搜广推带来革命性变化？: zh/chapter6/introduction/llm_revolution.md
+                            - LLM 在搜广推应用中的机遇与挑战: zh/chapter6/introduction/opportunities_challenges.md
+                            - 核心技术点: zh/chapter6/introduction/core_techniques.md
+                  - LLM + 搜索：重新定义信息获取:
+                            - LLM 赋能查询理解与生成: zh/chapter6/llm_search/query_understanding.md
+                            - LLM 驱动的文档表示、摘要与排序: zh/chapter6/llm_search/document_representation.md
+                            - 生成式搜索与对话式搜索: zh/chapter6/llm_search/generative_search.md
+                  - LLM + 推荐：迈向更懂你的个性化:
+                            - 基于 LLM 的用户建模与偏好挖掘: zh/chapter6/llm_recommendation/user_modeling.md
+                            - LLM 赋能物品内容理解与表示: zh/chapter6/llm_recommendation/item_understanding.md
+                            - 生成式推荐: zh/chapter6/llm_recommendation/generative_recommendation.md
+                            - 对话式推荐: zh/chapter6/llm_recommendation/conversational_recommendation.md
+                  - LLM + 广告：创意与效率的"双翼齐飞":
+                            - LLM 驱动的广告创意自动化生成与优化: zh/chapter6/llm_advertising/creative_generation.md
+                            - 基于 LLM 的广告用户意图理解与精准定向: zh/chapter6/llm_advertising/intent_targeting.md
+                            - LLM 在广告竞价、预算分配中的探索: zh/chapter6/llm_advertising/bidding_optimization.md
+                  - LLM 应用的共性问题与前沿思考:
+                            - 数据依赖、隐私保护与伦理考量: zh/chapter6/challenges/data_privacy.md
+                            - 模型幻觉与可信度挑战: zh/chapter6/challenges/hallucination.md
+                            - 推理效率、成本控制与工程落地: zh/chapter6/challenges/efficiency_cost.md
+                            - 通用智能与领域知识的结合: zh/chapter6/challenges/domain_integration.md
+                            - 多模态LLM在搜广推中的展望: zh/chapter6/challenges/multimodal_future.md
+        - 第七部分 - 动手实战 💻:
+                  - 从零开始：你的第一个"玩具版"搜广推项目:
+                            - 环境搭建与工具选择: zh/chapter7/getting_started/environment_setup.md
+                            - 案例1：基于MovieLens数据集的电影推荐系统: zh/chapter7/getting_started/movie_recommendation.md
+                            - 案例2：基于文本的简易搜索引擎: zh/chapter7/getting_started/search_engine.md
+                            - 案例3：CTR预估模型Demo: zh/chapter7/getting_started/ctr_demo.md
+                  - 常用框架与平台"巡礼":
+                            - 搜索引擎框架: zh/chapter7/frameworks/search_engines.md
+                            - 向量数据库: zh/chapter7/frameworks/vector_databases.md
+                            - 推荐系统库: zh/chapter7/frameworks/recsys_libraries.md
+                            - 大规模机器学习平台: zh/chapter7/frameworks/ml_platforms.md
+                  - 工业界案例浅析:
+                            - 大厂搜广推系统架构解读: zh/chapter7/industrial_cases/architecture_analysis.md
+        - 附录与资源 📚:
+                  - 术语表: zh/appendix/glossary.md
+                  - 宝藏资源分享:
+                            - 经典/前沿论文清单: zh/appendix/resources/papers.md
+                            - 优质博客、在线课程、技术社区: zh/appendix/resources/blogs_courses.md
+                            - 必读好书推荐: zh/appendix/resources/books.md
+                  - 常用公开数据集一览: zh/appendix/datasets.md
+                  - 贡献指南与致谢: zh/appendix/contributing.md
+        - 结语 - 一起"卷"向未来！ 🌟:
+                  - 教程回顾与总结: zh/conclusion/summary.md
+                  - 搜广推技术的未来趋势展望: zh/conclusion/future_trends.md
+                  - 如何持续学习与保持竞争力？: zh/conclusion/continuous_learning.md
 
 # 插件设置
 plugins:
-      - search
-      - awesome-pages
-      - mkdocstrings:
-              default_handler: python
-              handlers:
-                    python:
-                          options:
-                                members: true
-      - i18n:
-              docs_structure: folder
-              default_language: zh
-              languages:
-                    - language: zh
-                      name: 简体中文
-                      locale: zh
-                      build: true
-                      default: true
-              languages_dir: docs/
-              nav_style: separate
-              # language_selector: true
-              # language_selector_position: header
-              # nav_translate: true # 启用导航翻译
+        - search
+        - awesome-pages
+        - mkdocstrings:
+                  default_handler: python
+                  handlers:
+                          python:
+                                  options:
+                                          members: true
+        - i18n:
+                  docs_structure: folder
+                  default_language: zh
+                  languages:
+                          - language: zh
+                            name: 简体中文
+                            locale: zh
+                            build: true
+                            default: true
+                  languages_dir: docs/
+                  nav_style: separate
+                  # language_selector: true
+                  # language_selector_position: header
+                  # nav_translate: true # 启用导航翻译
 
 # Markdown 扩展
 markdown_extensions:
-      - admonition # 启用警告框
-      - tables # 启用表格
-      - def_list # 默认定义列表
-      - pymdownx.highlight # 启用代码高亮
-      - pymdownx.superfences # 启用自定义代码块
-      - pymdownx.details # 启用可折叠的详细信息
-      - attr_list # 启用属性列表
-      - pymdownx.emoji # 启用表情符号
-      - pymdownx.inlinehilite # 启用行内代码高亮
-      - pymdownx.arithmatex:
-              generic: true # 启用数学公式
+        - admonition # 启用警告框
+        - tables # 启用表格
+        - def_list # 默认定义列表
+        - pymdownx.highlight # 启用代码高亮
+        - pymdownx.superfences # 启用自定义代码块
+        - pymdownx.details # 启用可折叠的详细信息
+        - attr_list # 启用属性列表
+        - pymdownx.emoji # 启用表情符号
+        - pymdownx.inlinehilite # 启用行内代码高亮
+        - pymdownx.arithmatex:
+                  generic: true # 启用数学公式
 
 # 额外页面设置
 extra:
-      social:
-            - icon: fontawesome/brands/github
-              link: https://github.com/1985312383/search-rec-ads-cosmos-explorer
+        social:
+                - icon: fontawesome/brands/github
+                  link: https://github.com/1985312383/search-rec-ads-cosmos-explorer
 
 extra_css:
-      - https://unpkg.com/katex@0/dist/katex.min.css # 数学公式支持
-      - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css # 优化中文显示
-      # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
-      # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
-      # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+        - https://unpkg.com/katex@0/dist/katex.min.css # 数学公式支持
+        - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css # 优化中文显示
+        # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
+        # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
+        # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
 
 extra_javascript:
-      - extra_js/tablesort.js # 表格排序支持
-      - extra_js/tablesort.min.js # 表格排序支持
+        - extra_js/tablesort.js # 表格排序支持
+        - extra_js/tablesort.min.js # 表格排序支持
 
-      # katex数学公式支持
-      - extra_js/katex.js # 数学公式支持
-      - extra_js/katex.min.js # 数学公式支持
-      - extra_js/auto-render.min.js # 数学公式支持
+        # katex数学公式支持
+        - extra_js/katex.js # 数学公式支持
+        - extra_js/katex.min.js # 数学公式支持
+        - extra_js/auto-render.min.js # 数学公式支持
