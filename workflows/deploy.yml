@@ -20,7 +20,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: |
+        run: 
           pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin mkdocstrings mkdocstrings-python mkdocs-static-i18n
         retries: 2  # 如果失败最多重试2次
 
