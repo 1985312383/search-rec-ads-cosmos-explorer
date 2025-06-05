@@ -1,0 +1,36 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 你的主分支名称
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3  # 设置3分钟超时
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin mkdocstrings mkdocstrings-python mkdocs-static-i18n
+        retries: 2  # 如果失败最多重试2次
+
+      - name: Build site
+        run: mkdocs build
+        retries: 2  # 如果失败最多重试2次
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+        retries: 2  # 如果失败最多重试2次
