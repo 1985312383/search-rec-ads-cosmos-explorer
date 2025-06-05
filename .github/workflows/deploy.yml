@@ -20,17 +20,14 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: 
+        run: |
           pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin mkdocstrings mkdocstrings-python mkdocs-static-i18n
-        retries: 2  # 如果失败最多重试2次
 
       - name: Build site
         run: mkdocs build
-        retries: 2  # 如果失败最多重试2次
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-        retries: 2  # 如果失败最多重试2次
