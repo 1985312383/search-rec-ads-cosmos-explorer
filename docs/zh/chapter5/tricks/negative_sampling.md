@@ -1,1 +1,0 @@
-# 高效负采样 (Negative Sampling) 的学问

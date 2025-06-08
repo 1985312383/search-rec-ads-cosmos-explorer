@@ -1,1 +1,0 @@
-# 生成式搜索 (Generative Search) 与对话式搜索 (Conversational Search)

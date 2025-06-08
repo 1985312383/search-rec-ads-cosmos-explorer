@@ -1,1 +1,0 @@
-# 搜索效果指标排排坐 (MAP, NDCG, MRR, Precision@K, Recall@K)

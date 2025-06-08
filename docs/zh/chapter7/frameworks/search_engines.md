@@ -1,1 +1,0 @@
-# 搜索引擎框架：Elasticsearch, OpenSearch, Solr 简介
