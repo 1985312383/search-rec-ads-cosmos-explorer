@@ -17,10 +17,15 @@ jobs:
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
 
-      - name: 设置 pnpm
+      - name: Setup pnpm
         uses: pnpm/action-setup@v4
+        with:
+          # 选择要使用的 pnpm 版本
+          version: 10
+          # 使用 pnpm 安装依赖
+          run_install: true
 
-      - name: 设置 Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           # 选择要使用的 node 版本
@@ -32,12 +37,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       # 运行构建脚本
-      - name: 构建 VuePress 站点
+      - name: Build VuePress site
         run: pnpm docs:build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
           # 部署到 gh-pages 分支
