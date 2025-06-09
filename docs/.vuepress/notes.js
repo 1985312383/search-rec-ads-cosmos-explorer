@@ -6,6 +6,11 @@ const zhNotes = defineNoteConfig({
     link: '/',
     sidebar: [
         {
+            text: '指南起始页',
+            icon: 'ph:books',
+            link: '/zh/'
+        },
+        {
             text: '序章：搜广推的世界，你好！',
             prefix: '0.序章：搜广推的世界，你好！',
             collapsed: true,

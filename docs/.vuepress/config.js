@@ -14,7 +14,8 @@ export default defineUserConfig({
     // 网站头部配置
     head: [
         ['link', { rel: 'icon', href: '/img/favicon.png' }],
-        ['link', { rel: 'shortcut icon', href: '/img/favicon.png' }]
+        ['link', { rel: 'shortcut icon', href: '/img/favicon.png' }],
+        ['link', { rel: 'apple-touch-icon', href: '/img/favicon.png' }]
     ],
 
 
