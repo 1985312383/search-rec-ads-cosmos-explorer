@@ -13,15 +13,15 @@ export default defineUserConfig({
 
     // 网站头部配置
     head: [
-        ['link', { rel: 'icon', href: '/file/img/favicon.png' }],
-        ['link', { rel: 'shortcut icon', href: '/file/img/favicon.png' }]
+        ['link', { rel: 'icon', href: '/img/favicon.png' }],
+        ['link', { rel: 'shortcut icon', href: '/img/favicon.png' }]
     ],
 
 
 
     theme: plumeTheme({
         notes,
-        logo: '../file/img/favicon.png',
+        logo: '/img/favicon.png',
         // 控制部分自动生成
         autoFrontmatter: {
             permalink: false, // 是否生成永久链接
@@ -32,7 +32,20 @@ export default defineUserConfig({
             mermaid: true,
             timeline: true,
             icons: true,
-            math: { type: 'katex' }
+            math: { type: 'katex' },
+            image: {
+                // 启用 figure
+                figure: true,
+
+                // 启用图片懒加载
+                lazyload: true,
+
+                // 启用图片标记
+                mark: true,
+
+                // 启用图片大小
+                size: true,
+            }
         }
     })
 })

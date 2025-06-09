@@ -37,7 +37,7 @@ config:
   - type: text-image
     title: 📚 系统性学习路径
     description: 从零基础到专家级别，为你规划清晰的学习路线图
-    image: file/img/learning-path.jpeg
+    image: /img/learning-path.jpeg
     #   dark: /images/learning-path-dark.svg
     list:
       - title: 基础算法篇
@@ -52,7 +52,7 @@ config:
   - type: image-text  
     title: 🚀 LLM 时代的新机遇
     description: 大语言模型正在重塑搜广推行业，让我们一起探索无限可能
-    image: file/img/llm-revolution.jpeg
+    image: /img/llm-revolution.jpeg
       # light: /images/llm-revolution-light.svg  
       # dark: /images/llm-revolution-dark.svg
     list:
