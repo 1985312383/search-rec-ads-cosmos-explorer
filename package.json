@@ -10,14 +10,12 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "docs:dev": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:build": "vuepress build docs",
-    "export-pdf": "press-export-pdf export /docs"
+    "docs:build": "vuepress build docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@condorhero/vuepress-plugin-export-pdf-v2": "^3.0.3",
     "@types/node": "^22.15.30",
     "@vuepress/bundler-vite": "2.0.0-rc.23",
     "@vuepress/theme-default": "^1.9.10",
