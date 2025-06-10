@@ -2,7 +2,6 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { defineUserConfig } from 'vuepress'
 import notes from './notes.js'
-// import { defineMermaidConfig } from 'vuepress-plugin-mermaidjs'
 
 export default defineUserConfig({
     bundler: viteBundler(),
@@ -13,12 +12,8 @@ export default defineUserConfig({
 
     // 网站头部配置
     head: [
-        ['link', { rel: 'icon', href: '/img/favicon.png' }],
-        ['link', { rel: 'shortcut icon', href: '/img/favicon.png' }],
-        ['link', { rel: 'apple-touch-icon', href: '/img/favicon.png' }]
+        ['link', { rel: 'icon', href: '/search-rec-ads-cosmos-explorer/img/favicon.png' }]
     ],
-
-
 
     theme: plumeTheme({
         notes,
