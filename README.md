@@ -65,7 +65,7 @@
 - **📱 响应式设计**: 完美适配桌面、平板、移动设备
 
 ### 在线阅读
-访问 [在线文档](https://your-domain.com) 即可开始你的学习之旅！
+访问 [在线文档](https://1985312383.github.io/search-rec-ads-cosmos-explorer/) 即可开始你的学习之旅！
 
 ## 📚 目录结构
 

@@ -66,7 +66,7 @@ config:
         description: 图文音频多模态内容理解与生成能力
 
   - type: profile
-    name: 宇宙漫游指南编写组
+    name: 柯慕灵
     description: 致力于让复杂的搜广推技术变得简单易懂，帮助每个人在 AI 时代找到自己的位置
     # avatar: /images/guide-avatar.png
     circle: true
