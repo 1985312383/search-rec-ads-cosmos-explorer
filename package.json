@@ -12,8 +12,13 @@
     "docs:dev": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "search",
+    "recommendation",
+    "ads",
+    "tutorial"
+  ],
+  "author": "柯慕灵",
   "license": "ISC",
   "dependencies": {
     "@vueuse/core": "^13.3.0"
