@@ -16,7 +16,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vueuse/core": "^13.3.0",
+    "@vueuse/core": "^13.3.0"
+  },
+  "devDependencies": {
     "@types/node": "^22.15.30",
     "@vuepress/bundler-vite": "2.0.0-rc.23",
     "@vuepress/theme-default": "^1.9.10",
