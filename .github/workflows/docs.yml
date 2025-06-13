@@ -46,6 +46,8 @@ jobs:
           pnpm install
           # 确保 Vue 依赖可用（解决 CI 环境中的依赖问题）
           pnpm add -D vue@^3.5.0
+          # 安装 mermaid 相关依赖
+          pnpm add -D vuepress-plugin-md-enhance
 
       - name: 构建 VuePress 站点
         run: pnpm docs:build
