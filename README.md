@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-0.0.3-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Build](https://img.shields.io/badge/build-VuePress-orange.svg) ![Stars](https://img.shields.io/github/stars/1985312383/search-rec-ads-cosmos-explorer?style=social)
+![Version](https://img.shields.io/badge/version-0.0.4-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Build](https://img.shields.io/badge/build-VuePress-orange.svg) ![Stars](https://img.shields.io/github/stars/1985312383/search-rec-ads-cosmos-explorer?style=social)
 
 **致敬《银河系漫游指南》| 探索搜索、推荐、广告算法的宇宙奥秘**
 
@@ -168,8 +168,8 @@
 | `v0.0.1` | ✅ | 序章部分内容 | 项目启动，搭建基础框架 |
 | `v0.0.2` | ✅ | 推荐算法门派章节 | 第三章推荐算法基础内容 |
 | `v0.0.3` | ✅ | 推荐算法深度学习文艺复兴 | 深度学习推荐模型详解 |
-| `v0.0.4` | 🚧 | 推荐算法推荐系统进阶话题 | 完善推荐算法章节内容 |
-| `v0.0.5` | 📋 | 第六章：LLM新范式 | LLM迈向更懂你的个性化 |
+| `v0.0.4` | ✅ | 推荐算法推荐系统进阶话题 | 完善推荐算法章节内容 |
+| `v0.0.5` | 🚧 | 第六章：LLM新范式 | LLM迈向更懂你的个性化 |
 | `v0.2.x` | 📋 | 第一章：基础知识夯实 | 万丈高楼平地起 |
 | `v0.3.x` | 📋 | 第二章：搜索算法 | 信息海洋的智能导航员 |
 | `v0.4.x` | 📋 | 第四章：计算广告 | 流量变现的魔法引擎 |

@@ -18,6 +18,12 @@ export default defineUserConfig({
     theme: plumeTheme({
         notes,
         logo: '/img/favicon.png',
+        social: [
+            {
+                icon: 'github',
+                link: 'https://github.com/1985312383/search-rec-ads-cosmos-explorer'
+            }
+        ],
         // 控制部分自动生成
         autoFrontmatter: {
             permalink: false, // 是否生成永久链接
