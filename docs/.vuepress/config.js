@@ -18,6 +18,7 @@ export default defineUserConfig({
     theme: plumeTheme({
         notes,
         logo: '/img/favicon.png',
+        hostname: 'https://1985312383.github.io/search-rec-ads-cosmos-explorer/',
         social: [
             {
                 icon: 'github',
