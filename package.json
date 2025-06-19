@@ -27,7 +27,7 @@
     "@types/node": "^22.15.30",
     "@vuepress/bundler-vite": "2.0.0-rc.23",
     "@vuepress/theme-default": "^1.9.10",
-    "mermaid": "^11.6.0",
+    "mermaid": "11.6.0",
     "stylus": "^0.64.0",
     "typescript": "^5.8.3",
     "vuepress": "2.0.0-rc.23",
