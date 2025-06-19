@@ -1,6 +1,12 @@
 ﻿---
 home: true
 title: 首页
+
+head:
+  - - meta
+    - name: "google-site-verification"
+      content: "431dPlmPLI_tMk0x689xN33EgmntaQ94j76LmuoVdyU"
+
 config:
   - type: hero
     hero:
