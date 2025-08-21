@@ -148,7 +148,16 @@
 
 ![Alt](https://repobeats.axiom.co/api/embed/0a0472c0f67dd490f012b4f0ad27f1cbe10ea142.svg "Repobeats analytics image")
 
-<div align="center">
+## ⭐️ 项目 Star 历史
+
+<a href="https://www.star-history.com/#1985312383/search-rec-ads-cosmos-explorer&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=1985312383/search-rec-ads-cosmos-explorer&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=1985312383/search-rec-ads-cosmos-explorer&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=1985312383/search-rec-ads-cosmos-explorer&type=Date" />
+ </picture>
+</a>
+
 
 **🌟 如果这个项目对你有帮助，欢迎给个 Star ⭐**
 
