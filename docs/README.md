@@ -1,7 +1,7 @@
 ﻿---
+pageLayout: home
 home: true
 title: 搜广推算法教程 - 搜索推荐广告算法学习指南 | LLM时代搜广推宇宙漫游指南
-
 head:
   - - meta
     - name: "google-site-verification"
@@ -27,6 +27,9 @@ head:
 
 config:
   - type: hero
+    full: true
+    forceDark: true
+    effect: dark-veil
     hero:
       name: 搜广推宇宙漫游指南
       text: LLM领航版
