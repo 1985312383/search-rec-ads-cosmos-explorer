@@ -3,6 +3,7 @@ import { defineMermaidConfig } from '@vuepress/plugin-markdown-chart/client'
 import { defineClientConfig } from 'vuepress/client'
 import { setupThemeColors } from './themes/composables/theme-colors.js'
 import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
+import './styles/index.css'
 
 defineMermaidConfig({
     theme: 'default',
