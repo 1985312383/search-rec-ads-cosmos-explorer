@@ -1,3 +1,5 @@
+![logo](docs/.vuepress/public/img/logo.png)
+
 # 🚀 搜广推宇宙漫游指南
 
 <div align="center">
