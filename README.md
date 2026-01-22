@@ -130,6 +130,10 @@
 
 请参考 [**贡献指南**](https://1985312383.github.io/search-rec-ads-cosmos-explorer/zh/8.%E9%99%84%E5%BD%95%E4%B8%8E%E8%B5%84%E6%BA%90/4.contributing.html) 了解如何参与。
 
+也欢迎各位想要共建的小伙伴进群~
+
+![qq_qrcode](docs/.vuepress/public/img/qq_qrcode.jpg)
+
 ## 📄 版权声明
 
 本项目采用 [MIT 许可证](LICENSE)。
