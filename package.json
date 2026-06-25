@@ -1,6 +1,6 @@
 {
   "name": "search-rec-ads-cosmos-explorer",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "搜广推宇宙漫游指南",
   "main": "index.js",
   "directories": {
@@ -19,7 +19,7 @@
     "tutorial"
   ],
   "author": "柯慕灵",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@vueuse/core": "^13.3.0",
     "ogl": "^1.0.11",
