@@ -1,4 +1,4 @@
-![logo](docs/.vuepress/public/img/logo.png)
+![logo](docs/.vuepress/public/img/logo.jpg)
 
 # 🚀 搜广推宇宙漫游指南
 
@@ -134,7 +134,7 @@
 
 也欢迎各位想要共建的小伙伴进群~
 
-![qq_qrcode](docs/.vuepress/public/img/qq_qrcode.jpg)
+<img width=400px src="docs/.vuepress/public/img/qq_qrcode.jpg"></img>
 
 ## 📄 版权声明
 
